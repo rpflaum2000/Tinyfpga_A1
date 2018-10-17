@@ -33,7 +33,7 @@ module TinyFPGA_A1 (
   assign pin7_done = 1'bz;
   assign pin8_pgmn = 1'bz;
   //assign pin9_jtgnb = 1'bz;
-  assign pin10_sda = 1'bz;
+  //assign pin10_sda = 1'bz;
   assign pin11_scl = 1'bz;
   
   // right side of board
@@ -65,5 +65,6 @@ module TinyFPGA_A1 (
   end
   
 assign pin9_jtgnb = led_timer[23];
+assign pin10_sda = led_timer[22];
 
 endmodule
